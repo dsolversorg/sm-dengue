@@ -1,6 +1,6 @@
 {
   "homepage": "./",
-  "name": "sm-mps",
+  "name": "sm-dengue",
   "version": "1.0.0",
   "engines": {
     "node": ">=16"
