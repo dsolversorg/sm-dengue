@@ -38,12 +38,14 @@ jobs:
         with:
           role-to-assume: ${{ secrets.PRD_AWS_ROLE_TO_ASSUME }}
           role-session-name: githubaction
-          aws-region: us-east-1
+          aws-region: ${{ secrets.PRD_AWS_DEFAULT_REGION }}
+
+      - name: Set Customer env
+        run: echo "CUSTOMER=${{ github.event.repository.name }}" | sed 's/.*-//' >> $GITHUB_ENV
 
       - name: Sync to s3 bucket
         env:
-          AWS_S3_BUCKET: sites.pessoadigital.digitalsolvers.com
-          CUSTOMER: dengue
+          AWS_S3_BUCKET: sites.pessoadigital.digitalsolvers.com   
         run: |
           cp build/index.html build/$CUSTOMER
-          aws s3 sync build/ s3://$AWS_S3_BUCKET/dengue/
+          aws s3 sync build/ s3://$AWS_S3_BUCKET/$CUSTOMER/
