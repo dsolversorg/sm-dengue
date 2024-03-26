@@ -2,7 +2,7 @@ name: Build & Sync S3
 
 on:
   push:
-    branches: ["main"]
+    branches: ["test-opsteam"]
   #workflow_dispatch:
 
 jobs:
