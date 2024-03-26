@@ -34,11 +34,11 @@ jobs:
       - run: npm run build
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v3
         with:
           role-to-assume: ${{ secrets.PRD_AWS_ROLE_TO_ASSUME }}
           role-session-name: githubaction
-          aws-region: ${{ secrets.PRD_AWS_DEFAULT_REGION }}
+          aws-region: us-east-1
 
       - name: Sync to s3 bucket
         env:
