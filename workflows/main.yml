@@ -19,8 +19,8 @@ jobs:
 
       - name: Get Secrets
         env:
-          REACT_APP_API_KEY: ${{ secrets.API_KEY_BIOMARIN }}
-          REACT_APP_TOKEN_URL: ${{ secrets.API_KEY_BIOMARIN }}
+          REACT_APP_API_KEY: ${{ secrets.API_KEY_DENGUE }}
+          REACT_APP_TOKEN_URL: ${{ secrets.API_KEY_DENGUE }}
         run: |
           echo REACT_APP_API_KEY="$REACT_APP_API_KEY" >> env
           echo REACT_APP_TOKEN_URL="$REACT_APP_TOKEN_URL" >> env
