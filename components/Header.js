@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import styled from 'styled-components';
 import { Link, useLocation } from 'react-router-dom';
 import {
-  logo, logoAltText, transparentHeader, headerHeight, logoLink,
+  logoAltText, transparentHeader, headerHeight, logoLink,
 } from '../config';
 import Controls from './Controls';
 
@@ -21,7 +21,7 @@ function Header({
             <div>
               {/* left align */}
               <Link to={logoLink}>
-                <img src={logo} className="logo position-relative" alt={logoAltText} />
+                <img src="https://pessoadigital.digitalsolvers.com/assets/digital-solvers-logo.svg" className="logo position-relative" alt={logoAltText} />
               </Link>
             </div>
             <div>
