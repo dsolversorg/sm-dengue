@@ -7,7 +7,7 @@ import PersonaVideo from '../components/PersonaVideo';
 import Captions from '../components/Captions';
 import ContentCardDisplay from '../components/ContentCardDisplay';
 import {
-  disconnect, sendEvent, setVideoDimensions,
+  disconnect, setVideoDimensions,
 } from '../store/sm/index';
 import Header from '../components/Header';
 import {
