@@ -62,8 +62,6 @@ function DPChat({
   };
 
   useEffect(() => {
-    // send init event, since we will finish loading before we display the DP
-    dispatch(sendEvent({ eventName: '', payload: {}, kind: 'init' }));
     // run resize once on mount, then add listener for future resize events
     handleResize();
     window.addEventListener('resize', handleResize);
