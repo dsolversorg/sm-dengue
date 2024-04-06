@@ -10,7 +10,6 @@ import {
 } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { XCircle } from 'react-bootstrap-icons';
-import DPChat from './routes/DPChat';
 import Landing from './routes/Landing';
 import Loading from './routes/Loading';
 import Feedback from './routes/FeedbackRoute';
@@ -80,9 +79,6 @@ function App() {
         </Route>
         <Route path="/loading">
           <Loading />
-        </Route>
-        <Route path="/video">
-          <DPChat />
         </Route>
         <Route path="/feedback">
           <Feedback />
