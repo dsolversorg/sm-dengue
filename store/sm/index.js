@@ -204,7 +204,7 @@ export const createScene = createAsyncThunk('sm/createScene', async (_, thunk) =
       },
       sendMetadata: {
         // send url updates for react app as PAGE_METADATA intents to NLP
-        pageUrl: true,
+        pageUrl: false,
       },
       stopSpeakingWhenNotVisible: true,
     };
