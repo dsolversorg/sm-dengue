@@ -4,8 +4,8 @@ import placeholder from './img/placeholder-headshot.png';
 // header will not take up vertical height when transparent, so you need to be mindful of overlap
 export const transparentHeader = true;
 export const headerHeight = '4.2rem';
-export const logo = 'https://pessoadigital.digitalsolvers.com/assets/digital-solvers-logo.svg';
-export const logoAltText = 'Digital Solvers Logo';
+export const logo = 'https://i.postimg.cc/2SYk5kDN/logo-DS-01.png';
+export const logoAltText = 'Digital Solvers Icon';
 export const logoLink = '/';
 
 // background image is positioned in a way that is best for pictures of the persona's face.
