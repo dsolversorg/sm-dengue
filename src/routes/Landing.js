@@ -138,7 +138,7 @@ export default styled(Landing)`
     border: 1px solid rgb(60, 60, 60);
     border-radius: 32px;
     padding:16px 32px;
-    background-color: #8AC43F;
+    background-color: #51df2d;
     color: #ffffff;
     font-weight: 600;
     margin: 0;
