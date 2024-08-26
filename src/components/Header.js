@@ -49,7 +49,7 @@ function Header({
             <div>
               {/* left align */}
               <Link to={logoLink}>
-                <img src="https://i.postimg.cc/2SYk5kDN/logo-DS-01.png" className="logo position-relative" alt={logoAltText} />
+                <img src="https://metadoctors.com.br/app/wp-content/uploads/2024/08/logods.png" className="logo position-relative" alt={logoAltText} />
               </Link>
             </div>
             <div>

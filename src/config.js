@@ -4,7 +4,7 @@ import placeholder from './img/placeholder-headshot.png';
 // header will not take up vertical height when transparent, so you need to be mindful of overlap
 export const transparentHeader = true;
 export const headerHeight = '4.2rem';
-export const logo = 'https://i.postimg.cc/2SYk5kDN/logo-DS-01.png';
+export const logo = 'https://metadoctors.com.br/app/wp-content/uploads/2024/08/logods.png';
 export const logoAltText = 'Digital Solvers Icon';
 export const logoLink = '/';
 
